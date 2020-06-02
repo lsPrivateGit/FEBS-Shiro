@@ -15,16 +15,16 @@ spring:
       datasource:
         # 数据源-1，名称为 base
         base:
-          username: root
-          password: 123456
+          username: linsong_mall4j
+          password: cooLkart009
           driver-class-name: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://127.0.0.1:3306/febs_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
+          url: jdbc:mysql://rm-bp10pjm0e59jy700clo.mysql.rds.aliyuncs.com:3306/febs_base?allowMultiQueries=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true
         # 数据源-2，名称为 quartz
         quartz:
-          username: root
-          password: 123456
+          username: linsong_mall4j
+          password: cooLkart009
           driver-class-name: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://127.0.0.1:3306/febs_quartz?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
+          url: jdbc:mysql://rm-bp10pjm0e59jy700clo.mysql.rds.aliyuncs.com:3306/febs_quartz?allowMultiQueries=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true
 
   redis:
     # Redis数据库索引（默认为 0）
